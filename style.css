@@ -1,0 +1,22 @@
+html{
+    box-sizing: border-box;
+    background-image: url('img/bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-color: #00090F;
+}
+#header{
+    text-align: center;
+}
+#red-cards-row, #yellow-cards-row, #blue-cards-row{
+    margin-top: 20px;
+    text-align: center;
+}
+#cards{
+    margin-top: 50px;
+}
+#footer{
+    text-align: center;
+    margin-top: 30px;
+}
