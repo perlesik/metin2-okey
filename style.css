@@ -20,3 +20,26 @@ html{
     text-align: center;
     margin-top: 30px;
 }
+.btn{
+	box-shadow: inset 0px 1px 3px 0px #828a89;
+	background: linear-gradient(to bottom, #575757 5%, #3d3d3d 100%);
+	background-color: #575757;
+	border-radius: 2px;
+	border: 1px solid #000000;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 12px 22px;
+	text-decoration: none;
+}
+.btn:hover{
+	background: linear-gradient(to bottom, #3d3d3d 5%, #575757 100%);
+	background-color: #3d3d3d;
+}
+.btn:active{
+	position: relative;
+	top: 1px;
+}
