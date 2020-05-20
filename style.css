@@ -16,6 +16,7 @@ html{
 #cards > div > img{
 	filter: drop-shadow(0 0 10px rgb(32, 32, 32));
 	border: 2px solid black;
+	border-radius: 3px;
 	margin-right: 2px;
 	margin-left: 2px;
 }
