@@ -10,36 +10,51 @@ html{
     text-align: center;
 }
 #cards > div{
-    margin-top: 20px;
+	margin-top: 20px;
     text-align: center;
+}
+#cards > div > img{
+	filter: drop-shadow(0 0 10px rgb(32, 32, 32));
+	border: 2px solid black;
+	margin-right: 2px;
+	margin-left: 2px;
 }
 #cards{
     margin-top: 50px;
 }
-#footer{
+#button{
     text-align: center;
     margin-top: 30px;
 }
+#footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding-bottom: 2px;
+	width: 100%;
+	color: white;
+	text-align: center;
+}
 .btn{
-    box-shadow: inset 0px 1px 3px 0px #828a89;
-    background: linear-gradient(to bottom, #575757 5%, #3d3d3d 100%);
-    background-color: #575757;
-    border-radius: 2px;
-    border: 1px solid #000000;
-    display: inline-block;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: Verdana;
-    font-size: 15px;
-    font-weight: bold;
-    padding: 12px 22px;
-    text-decoration: none;
+	box-shadow:inset 0px 1px 3px 0px #828a89;
+	background:linear-gradient(to bottom, #575757 5%, #3d3d3d 100%);
+	background-color:#575757;
+	border-radius:2px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:bold;
+	padding:12px 22px;
+	text-decoration:none;
 }
 .btn:hover{
-    background: linear-gradient(to bottom, #3d3d3d 5%, #575757 100%);
-    background-color: #3d3d3d;
+	background:linear-gradient(to bottom, #3d3d3d 5%, #575757 100%);
+	background-color:#3d3d3d;
 }
 .btn:active{
-    position: relative;
-    top: 1px;
+	position:relative;
+	top:1px;
 }
